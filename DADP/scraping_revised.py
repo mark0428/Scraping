@@ -1,7 +1,9 @@
-
-# coding: utf-8
-
-# Fri 06 Oct 2017 04∶51∶40 PM PDT
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri 06 Oct 2017 04∶51∶40 PM PDT
+@author: cli
+"""
 
 # In[5]:
 
