@@ -1,6 +1,8 @@
 
 # coding: utf-8
 
+# Fri 06 Oct 2017 04∶51∶40 PM PDT
+
 # In[5]:
 
 from selenium import webdriver
