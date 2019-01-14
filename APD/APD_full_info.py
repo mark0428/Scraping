@@ -16,7 +16,7 @@ import requests
 
 # find all links
 links = []
-for i in range(1,2972):
+for i in range(1,3043):
     links.append('http://aps.unmc.edu/AP/database/query_output.php?ID='+'%05d'%i)
 
 # In[]:
@@ -67,4 +67,4 @@ data['Boman_Index'] = Boman_Index
 data['Three_D_Structure'] = Three_D_Structure
 data['Activity'] = Activity
 
-data.to_csv('/projects/btl/cli/AMP-classification/APD/APD_full.csv', index=False)
+data.to_csv('/projects/btl/cli/AMP_prediction_updated/data/AMP/APD/APD_full_20181207.csv', index=False)
