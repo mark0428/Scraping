@@ -4,6 +4,11 @@
 Created on Thu Dec  6 15:21:01 2018
 
 @author: cli
+
+"""
+
+"""
+Derive all mature AMPs from DADP AMPs/precursors
 """
 
 # In[]:
@@ -32,4 +37,12 @@ for i in range(len(bioactive)):
 mature_cleaned = list(set(mature))
 
 # In[]:
-# 
+# write to fasta
+ofile = open("/projects/btl/cli/AMP_prediction_updated/data/AMP/DADP/DADP_mature_AMP_20181206.fa", "w")
+
+for i in range(len(mature_cleaned)):
+    
+    ofile.write(">" + "DADP" + str(i+1).zfill(4) + "\n" + mature_cleaned[i] + "\n")
+
+
+ofile.close()
